@@ -1,7 +1,7 @@
-export interface PastWeather {
+export interface FutureWeather {
   city: string;
   country: string;
-  date: Date;
   description: string;
   temperature: number;
+  date: Date;
 }
